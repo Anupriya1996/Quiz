@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+/* header */
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 10px solid #eee;
+}
+
+header .btn_again {
+  background-color: whitesmoke;
+  color: black;
+  padding: 15px 35px;
+  font-weight: bolder;
+  font-size: larger;
+  border: none;
+}
+
+header h4 {
+  position: absolute;
+  right: 10px;
+  margin-top: -40px;
+}
+header h1 {
+  margin: 0px;
+  text-align: center;
+}
+
+header .number {
+  background-color: whitesmoke;
+  height: 50px;
+  width: 50px;
+  color: black;
+  position: absolute;
+  left: 45%;
+  top: 90%;
+  font-weight: bolder;
+  padding: 10px;
+}
+.number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* main */
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+.left .guess {
+  margin: 40px 40px;
+  padding: 15px;
+}
+.left .btn_check {
+  margin: 40px 55px;
+  padding: 15px 30px;
+  background-color: burlywood;
+  border: none;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
